@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv
 import sys
-sys.path.append('..')
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from src.core.manager import AgentManager
 from src.agents.content_agent import ContentAgent
 from src.agents.analytics_agent import AnalyticsAgent
