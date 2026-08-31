@@ -60,4 +60,6 @@ Thumbs.db
 # Project specific
 .agents/
 .tasks/
-.cache/
+.cache/node_modules/
+venv/
+__pycache__/
